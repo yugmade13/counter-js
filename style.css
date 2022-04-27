@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container {
+    text-align: center;
+    margin-top: 30vh;
+}
+
+h1 {
+    letter-spacing: 0.05rem;
+    line-height: 3ex;
+}
+
+#value {
+    font-size: 52px;
+    line-height: 3ex;
+}
+
+.btn-group {
+    line-height: 6ex;
+}
+
+.btn {
+    font-size: 16px;
+    margin: 4px;
+    padding: 11px 17px;
+    background-color: #fff;
+    border: 1px solid rgb(147, 147, 147);
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    border: 1px solid #000;
+}
+
+.btn:active {
+    background-color: rgb(237, 237, 237);
+}
